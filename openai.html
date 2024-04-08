@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="openai.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="section">
+    <div class="container">
+<h2>Google Apps Script Integration with OpenAI API</h2>
+<div class="underline"></div>
+<div class="email">
+    <div class="name">
+        <label for="text">Name:</label>
+        <input type="text" name="text" id="name" required placeholder="insert your name">
+    </div>
+    <div class="underline"></div>
+    <label for="email" >From:</label>
+    <input type="email" name="email" id="email" placeholder="name@gmail.com" required>
+    <div class="underline"></div>
+    <label for="email" >To:</label>
+    <input type="email" name="email" id="email" placeholder="name@gmail.com" required class="recipientemail">
+    <div class="underline"></div>
+    <label for="text">Subject:</label>
+    <input type="text" class="subject" placeholder="subject">
+    <div class="underline"></div>
+</div>
+<div class="bodytext">
+   <div name="text" id="text" placeholder="Compose email" required></div>
+</div>
+<div class="underline"></div>
+<div class="confirm"></div>
+<input type="text" class="input" placeholder="input your message">
+<button type="submit" class="send">send</button>
+    </div>
+ </div>   
+ <script src="openai.js"  ></script>
+</body>
+</html>
